@@ -8,6 +8,21 @@ theme:
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+<<<<<<< HEAD
+=======
+      toggle:
+        icon: material/brightness-4
+        name: Поменять на яркий режим
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Поменять на тёмный режим
+
+extra_css:
+  - src/stylesheets/extra.css
+>>>>>>> c82166bdb31782de712859956f3540d118112b8a
 
 nav:
   - 'index.md'
